@@ -27,6 +27,7 @@ FICHVOC = '/home/emiliostien/Documents/POLYTECH/INFO4/S8/MRI/Projet_RI/TP_Repres
 NBDOCS = len(os.listdir(DOSSIERDOCUMENTS)) # nombre de docs total
 MOTSOUTILS= {}  # le dictionnaire python des mots outils
 voc = {} # le dictionnaire python du vocabulaire, avec les idf
+vectors = {}
 
 #Les fonctions
 
