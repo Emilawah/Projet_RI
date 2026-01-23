@@ -21,12 +21,13 @@ import math
 import json
 
 #constantes
-DOSSIERDOCUMENTS = '/home/keke/INFO4/S8/RI/Projet_RI/TP_Representation/docs/' # repertoire qui contien la collectionA MODIFIER
-FICHMOTSOUTILS = '/home/keke/INFO4/S8/RI/Projet_RI/TP_Representation/common_words.txt' # fichier des mots outils A MODIFIER
-FICHVOC = '/home/keke/INFO4/S8/RI/Projet_RI/TP_Representation/Voc.json' # fichier json de sauvegarde du vocabulaire A MODIFIER
+DOSSIERDOCUMENTS = '/home/emiliostien/Documents/POLYTECH/INFO4/S8/MRI/Projet_RI/TP_Representation/docs/cacm/' # repertoire qui contien la collectionA MODIFIER
+FICHMOTSOUTILS = '/home/emiliostien/Documents/POLYTECH/INFO4/S8/MRI/Projet_RI/TP_Representation/common_words.txt' # fichier des mots outils A MODIFIER
+FICHVOC = '/home/emiliostien/Documents/POLYTECH/INFO4/S8/MRI/Projet_RI/TP_Representation/Voc.json' # fichier json de sauvegarde du vocabulaire A MODIFIER
 NBDOCS = len(os.listdir(DOSSIERDOCUMENTS)) # nombre de docs total
 MOTSOUTILS= {}  # le dictionnaire python des mots outils
 voc = {} # le dictionnaire python du vocabulaire, avec les idf
+vectors = {}
 
 #Les fonctions
 
